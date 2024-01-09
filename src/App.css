@@ -1,0 +1,56 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#UsedCountry {
+  border: 1px solid black;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  margin-inline: 10px;
+}
+
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#input-code {
+  margin-left: 10px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+button {
+  margin-left: 10px;
+  border: 1px solid black;
+  background-color: transparent;
+  border-radius: 10px;
+  width: 100px;
+  height: 25px;
+}
+
+#user-box {
+  border: 1px solid black;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+h4 {
+  text-align: center;
+}
+
+#new-input-code {
+  margin-left: 10px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+select {
+  width: 100px;
+  height: 25px;
+}

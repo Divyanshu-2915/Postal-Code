@@ -1,0 +1,99 @@
+{
+    "NewStates": [
+        {
+            "id": "1",
+            "code": "66002",
+            "name": "Kansas"
+        },
+        {
+            "id": "2",
+            "code": "40003",
+            "name": "Kentucky"
+        },
+        {
+            "id": "4",
+            "code": "70001",
+            "name": "Louisiana"
+        },
+        {
+            "id": "5",
+            "code": "03901",
+            "name": "Maine"
+        },
+        {
+            "id": "6",
+            "code": "20588",
+            "name": "Maryland"
+        },
+        {
+            "id": "7",
+            "code": "01001",
+            "name": "Massachusetts"
+        },
+        {
+            "id": "8",
+            "code": "48001",
+            "name": "Michigan"
+        },
+        {
+            "id": "9",
+            "code": "55001",
+            "name": "Minnesota"
+        },
+        {
+            "id": "10",
+            "code": "38601",
+            "name": "Mississippi"
+        },
+        {
+            "id": "11",
+            "code": "63001",
+            "name": "Missouri"
+        },
+        {
+            "id": "12",
+            "code": "59001",
+            "name": "Montana"
+        },
+        {
+            "id": "13",
+            "code": "68001",
+            "name": "Nebraska"
+        },
+        {
+            "id": "14",
+            "code": "88901",
+            "name": "Nevada"
+        },
+        {
+            "id": "15",
+            "code": "03031",
+            "name": "New Hampshire"
+        },
+        {
+            "id": "16",
+            "code": "07001",
+            "name": "New Jersey"
+        },
+        {
+            "id": "17",
+            "code": "87001",
+            "name": "New Mexico"
+        },
+        {
+            "id": "18",
+            "code": "00501",
+            "name": "New York"
+        },
+        {
+            "id": "19",
+            "code": "27006",
+            "name": "North Carolina"
+        },
+        {
+            "id": "20",
+            "code": "58001",
+            "name": "North Dakota"
+        }
+    ]
+}
