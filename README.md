@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+This is a React application designed to allow users to submit and view state codes for American states. 
+The app provides functionality to select a state from a dropdown menu, submit the corresponding state code, and also allows users to submit new codes for states not in the provided list.
+( My laptop was not supporting the API so I stored data in a local JSON file and then fetched them into main )
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features -
+ 
+    #Select a State:
+        Choose a state from the provided dropdown menu.
+        The selected state code is displayed in an input field.
 
-## Available Scripts
+    #Submit Selected State Code:
+        Submit the selected state code for viewing a success message.
 
-In the project directory, you can run:
+    #Enter a New Code:
+        If your state is not on the list, enter a new ZIP code.
+        The app disables the submit button when the entered code reaches a minimum length.
 
-### `npm start`
+    #Submit New Code:
+        Submit the new code and receive a success message.
+        The app detects whether the entered code corresponds to an existing state or represents a new one.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    #Reset Form:
+        Reset the form fields and disable the submit button.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Usage - 
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    useState - for managing the state of States and Messages.
+    setTimeout - for managing the time for success message.
+    Arrow Functions - for using useState variables in a react function without any error.
+    map method - for displaying the data. 
+    
